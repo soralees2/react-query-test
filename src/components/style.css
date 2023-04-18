@@ -1,0 +1,44 @@
+@charset "utf-8";
+* { box-sizing: border-box;}
+html, body {padding: 0; margin: 0;}
+.sectionWrap{
+  display: flex;
+  padding: 100px;
+  justify-content: space-around;
+}
+.sectionWrap section{
+  width: 40%;
+  padding: 50px;
+}
+
+.sectionWrap section h1{
+  margin:   2rem 0;
+  text-align: center;
+  font-size: 4rem;
+  color:black;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.sectionWrap section .card-item{
+  width: 250px;
+  margin-right:80px;
+  margin-top: 40px;
+  border-radius: 25px;
+  box-shadow: 15px 10px 10px rgba(0,0,0,0.2);
+  display: inline-block;
+  vertical-align: top;
+}
+.sectionWrap section .card-item:nth-child(2n){
+  margin-right:0;
+}
+.card-item .txtarea{
+  background-color: white;
+  padding: 20px;
+  border-radius: 0 0 25px 25px;
+}
+.card-item img{
+  display: block;
+  font-size: 0;
+  border-radius: 25px 25px 0 0;
+}
